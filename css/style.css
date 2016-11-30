@@ -1,0 +1,115 @@
+@media screen and (max-device-width: 768px) and (orientation: portrait) {
+    body,html{
+        height:100%;
+        font-family: "Georgia"
+    }
+    .first{
+        height:100%;
+    }
+    table{
+        background-color:#eee;
+        width:98%;
+    }
+    .image{
+        height:400px;
+    }
+    .big{
+        background: url("../images/img.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;    }
+    .second{
+        width:88%;
+        padding: 10px;
+        background-color:white;
+
+    }
+    p{
+        font-size: 20px;
+
+    }
+    h1{
+        text-align: center;
+    }
+
+    /*start to style the thrid paragraph*/
+    .thrid{
+        width:88%;
+    }
+    .column-one,
+    .column-two{
+        width:43.33%;
+        height:170px;
+        float:left;
+        padding:5px 0 5px 5px;
+        margin:8px;
+        margin-left:22px;
+    }
+    .column-one{
+        background: url("../images/big.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:170px;
+    }
+    .column-two{
+        background: url("../images/img3.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:170px;
+    }
+    /*start to style the last paragraph*/
+    .last{
+        width:98%;
+        text-align: center;
+    }
+    .column-three,
+    .column-four{
+        width:49%;
+        height:180px;
+        float:left;
+        text-align: center;
+        background-color: white;
+        overflow: auto;
+        margin:3px;
+    }
+
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+     body,html{
+        height:100%;
+        font-family: "Georgia"
+    }
+    .first{
+        height:100%;
+    }
+    table{
+        background-color:#eee;
+        width:100%;
+    }
+    .image{
+        height:400px;
+    }
+    .second-first,
+    .second,
+    .column-one,
+    .column-two{
+        width:100%;
+      margin-left:0 !important;
+    }
+    .column-one,
+    .column-two{
+        height:200px;
+        margin:8px;
+    }
+    .last,
+    .column-three,
+    .column-four{
+        width:100%;
+    }
+}
+
